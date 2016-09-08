@@ -32,7 +32,7 @@ public class ContentAdapter extends RecyclerView.Adapter<ContentAdapter.ContentV
         /**
          * 这里inflater.inflate()方法一定要写三个参数的！不然不能实现item子项宽度match_parent！
          */
-        View view = inflater.inflate(R.layout.content_item,parent,false);
+        View view = inflater.inflate(R.layout.item,parent,false);
         ContentViewHolder holder = new ContentViewHolder(view);
         return holder;
     }
@@ -54,7 +54,7 @@ public class ContentAdapter extends RecyclerView.Adapter<ContentAdapter.ContentV
         public  TextView content;
         public ContentViewHolder(View itemView) {
             super(itemView);
-            content = (TextView) itemView.findViewById(R.id.txt_item_content);
+            content = (TextView) itemView.findViewById(R.id.txt_item);
         }
     }
 }

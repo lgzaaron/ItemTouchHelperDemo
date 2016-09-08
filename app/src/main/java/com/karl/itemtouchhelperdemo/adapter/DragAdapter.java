@@ -30,7 +30,7 @@ public class DragAdapter extends RecyclerView.Adapter<DragAdapter.DragViewHolder
 
     @Override
     public DragViewHolder onCreateViewHolder(ViewGroup parent, int viewType) {
-        View view = inflater.inflate(R.layout.drag_item,null);
+        View view = inflater.inflate(R.layout.item,null);
         DragViewHolder  holder = new DragViewHolder(view);
         return holder;
     }
@@ -71,7 +71,7 @@ public class DragAdapter extends RecyclerView.Adapter<DragAdapter.DragViewHolder
         TextView textView;
         public DragViewHolder(View itemView) {
             super(itemView);
-            textView = (TextView) itemView.findViewById(R.id.txt_item_drag);
+            textView = (TextView) itemView.findViewById(R.id.txt_item);
         }
     }
 }
