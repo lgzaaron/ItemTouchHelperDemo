@@ -191,4 +191,5 @@ extends RecyclerView.Adapter<DragAdapter.DragViewHolder> implements ItemTouchHel
 
 
 ## 参考文献
-[RecyclerView的拖动和滑动 第一部分 ：基本的ItemTouchHelper示例](http://www.jcodecraeer.com/a/anzhuokaifa/androidkaifa/2015/0630/3123.html)[Android-RecyclerView拖拽排序和删除](http://www.jianshu.com/p/fd67184f1aa2/comments/4070281#comment-4070281)
+[RecyclerView的拖动和滑动 第一部分：基本的ItemTouchHelper示例](http://www.jcodecraeer.com/a/anzhuokaifa/androidkaifa/2015/0630/3123.html)
+[Android-RecyclerView拖拽排序和删除](http://www.jianshu.com/p/fd67184f1aa2/comments/4070281#comment-4070281)
