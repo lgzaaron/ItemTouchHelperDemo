@@ -2,7 +2,7 @@
 ## 前言
 需求：
 
-1、ScrollView嵌套下RecyclerView的GridView布局实现拖拽功能
+1、<font color=#ff00ff>ScrollView</font>嵌套下RecyclerView的GridView布局实现拖拽功能
 
 2、禁用RecyclerView的LinearLayout竖直布局滚动效果，实现ScrollView的整体滚动
 
